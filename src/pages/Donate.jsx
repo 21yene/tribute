@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 
 function Donate() {
   return (
     <div>
-      <Navbar />
+
       <div className="inner-banner">
         <section className="w3l-breadcrumb py-5">
           <div className="container py-lg-5 py-md-3">

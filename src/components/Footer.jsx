@@ -9,7 +9,7 @@ function Footer() {
             <div className="container">
               <div className="middle-section grid-column top-bottom">
                 <div className="image grid-three-column">
-                  <img src="assets/images/subscribe.png" alt="" className="img-fluid radius-image-full" />
+                  <img src="assets/images/subscribe.png" alt="Subscribe" className="img-fluid radius-image-full" />
                 </div>
                 <div className="text-grid grid-three-column">
                   <h2>Subscribe our Newsletter to receive latest updates from us</h2>
@@ -36,35 +36,32 @@ function Footer() {
                       <span className="fa fa-map-marker"></span>
                       Addis Ababa, Ethiopia
                     </p>
-                    
-                    
                   </div>
                   <div className="column">
                     <h4>Call Us</h4>
-                    <p>Mon - Fri 10:30 -18:00</p>
+                    <p>Mon - Fri 10:30 - 18:00</p>
                     <p>
                       <span className="fa fa-phone"></span>
                       <a href="tel:+251-918-922-547"> +251-918-922-547</a>
                     </p>
                   </div>
-          
                   <div className="column">
                     <h4>Mail Us</h4>
                     <p>
                       <a href="mailto:abrahammekuria73@gmail.com">
                         <span className="fa fa-envelope"></span>
-                        Abraham mekuria
+                        Abraham Mekuria
                       </a>
                     </p>
                   </div>
                   <div className="column">
                     <h4>Follow Us On</h4>
                     <ul>
-                      <li><a href="#facebook"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
-                      <li><a href="#linkedin"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
-                      <li><a href="#twitter"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
-                      <li><a href="#google"><span className="fa fa-google-plus" aria-hidden="true"></span></a></li>
-                      <li><a href="#github"><span className="fa fa-github" aria-hidden="true"></span></a></li>
+                      <li><a href="#facebook" aria-label="Facebook"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
+                      <li><a href="#linkedin" aria-label="LinkedIn"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
+                      <li><a href="#twitter" aria-label="Twitter"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
+                      <li><a href="#google" aria-label="Google Plus"><span className="fa fa-google-plus" aria-hidden="true"></span></a></li>
+                      <li><a href="#github" aria-label="GitHub"><span className="fa fa-github" aria-hidden="true"></span></a></li>
                     </ul>
                   </div>
                 </div>
@@ -73,11 +70,10 @@ function Footer() {
                 <div className="copyright">
                   <p>© 2024 የወንጌላዊ አለምነህ ጀንበሩ ማስታወሻ. All rights reserved. Design by <a href="https://github.com/21yene" target="_blank" rel="noopener noreferrer">Agarfan Friends</a></p>
                 </div>
-
               </div>
             </div>
           </div>
-         
+
           <script>
             {`
               window.onscroll = function() {scrollFunction()};
