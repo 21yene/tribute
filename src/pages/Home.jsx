@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
+import {Link} from 'react-router-dom'
+
 
 function Home() {
     return (
         <div>
-            <Navbar/>
             <section className="w3l-main-slider" id="home">
                 <div className="companies20-content">
                     <div className="owl-one owl-carousel owl-theme">
@@ -16,7 +16,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Charity Life</p>
                                             <h5>Charity, Faith and Hope. Help the Homeless. Charity life.</h5>
-                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
+                                            <Link to="/about" className="btn btn-primary btn-style">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Save Children</p>
                                             <h5>Donate with Kindness. Every amount Donated by you Counts.</h5>
-                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
+                                            <Link to="/about" className="btn btn-primary btn-style">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Unconditional Help</p>
                                             <h5>Give a Helping hand. We all need to come together. Our Mission.</h5>
-                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
+                                            <Link to="/about" className="btn btn-primary btn-style">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Unconditional Help</p>
                                             <h5>Should Children suffer this way? Don't leave Orphans alone</h5>
-                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
+                                            <Link to="/about" className="btn btn-primary btn-style">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -77,17 +77,17 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="box-wrap">
-                                <h4><a href="#mission">View our Mission</a></h4>
+                                <h4><Link to="#mission">View our Mission</Link></h4>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-sm-4 mt-3">
                             <div className="box-wrap">
-                                <h4><a href="#team">Top Founders</a></h4>
+                                <h4><Link to="#team">Top Founders</Link></h4>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-sm-4 mt-3">
                             <div className="box-wrap">
-                                <h4><a href="contact">Request a Quote</a></h4>
+                                <h4><Link to="/contact">Request a Quote</Link></h4>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ function Home() {
                         <h3 className="title-big">Over 93% of all Donations go directly to Projects.</h3>
                         <p className="my-3">Under 7% for admin, fundraising, and salaries.</p>
                         <h4>Thank you for your continued Support </h4>
-                        <a href="donate" className="btn btn-style btn-primary mt-sm-5 mt-4"><span className="fa fa-heart mr-1"></span> Donate Now</a>
+                        <Link to="/donate" className="btn btn-style btn-primary mt-sm-5 mt-4"><span className="fa fa-heart mr-1"></span> Donate Now</Link>
                     </div>
                 </div>
             </div>
@@ -111,25 +111,25 @@ function Home() {
                         <div className="col-lg-4 col-md-6 grids-feature">
                             <div className="area-box">
                                 <img src="assets/images/donate.png" alt="" />
-                                <h4><a href="#feature" className="title-head">Give Donation.</a></h4>
+                                <h4><Link to="#feature" className="title-head">Give Donation.</Link></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="donate" className="btn btn-text">Donate Now</a>
+                                <Link to="/donate" className="btn btn-text">Donate Now</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-5">
                             <div className="area-box">
                                 <img src="assets/images/volunteer.png" alt="" />
-                                <h4><a href="#feature" className="title-head">Become a Volunteer.</a></h4>
+                                <h4><Link to="#feature" className="title-head">Become a Volunteer.</Link></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="contact" className="btn btn-text">Join Now</a>
+                                <Link to="/contact" className="btn btn-text">Join Now</Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-5">
                             <div className="area-box">
                                 <img src="assets/images/child.png" alt="" style={{ width: '52px' }} />
-                                <h4><a href="#feature" className="title-head">Help the Children.</a></h4>
+                                <h4><Link to="#feature" className="title-head">Help the Children.</Link></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="donate" className="btn btn-text">Help Now</a>
+                                <Link to="/donate" className="btn btn-text">Help Now</Link>
                             </div>
                         </div>
                     </div>

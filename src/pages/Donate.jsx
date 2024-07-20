@@ -1,10 +1,9 @@
 import React from 'react';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 
 function Donate() {
   return (
     <div>
-
       <div className="inner-banner">
         <section className="w3l-breadcrumb py-5">
           <div className="container py-lg-5 py-md-3">
@@ -25,7 +24,7 @@ function Donate() {
             <div className="top-map">
               <div className="row map-content-9">
                 <div className="col-lg-8">
-                  <h3 className="title-big">Choose payment method </h3>
+                  <h3 className="title-big">Choose payment method</h3>
                   <p className="mb-4 mt-lg-0 mt-2">
                     Your email address will not be published. Required fields are marked *
                   </p>
@@ -41,15 +40,28 @@ function Donate() {
                   </form>
                 </div>
                 <div className="col-lg-4 cont-details">
-               </div>
+                  <address>
+                    <h5 className="">Payment Options</h5>
+                    <p>
+                      <span className="fa fa-credit-card"></span>
+                      Credit/Debit Card
+                    </p>
+                    <p>
+                      <span className="fa fa-paypal"></span>
+                      PayPal
+                    </p>
+                    <p>
+                      <span className="fa fa-bank"></span>
+                      Bank Transfer
+                    </p>
+                  </address>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-
-      <Footer/>
+      <Footer />
     </div>
   );
 }

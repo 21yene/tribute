@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const teamMembers = [
@@ -61,7 +62,6 @@ const testimonials = [
 function About() {
   return (
     <div>
-     
       <div className="inner-banner">
         <section className="w3l-breadcrumb py-5">
           <div className="container py-lg-5 py-md-3">
@@ -85,16 +85,13 @@ function About() {
               <div className="main-midd col-lg-9">
                 <h3 className="title-big">ስለ ወንጌላዊ አለምነህ ጀንበሩ በትንሹ</h3>
                 <p className="mt-3">
-                ጥቂት ጊዜ የኖሮ ነገር ግን ታላቅ የእግዚአብሄርን ስራ ሰርቶ ያለፈ ወንጌላዊ !!! በምድራችን ከተነሱት ታላላቅ የእግዚአብሔር ሰዎች መካከል አንዱ ወንጌላዊ አለምነህ ጀንበሩ (ጋሼ አለምነህ) ጥቂት ኖሮ ታላቅ ነገርን ሰርቶ ያለፈ የጌታ ባርያ ነዉ፡፡
-ወንጌላዊ አለምነህ ስለ ወንጌል የኖረ፤ በሁሉም የኢትጵያ ክልሎች ገጠር ከተማ ሳይል ወንጌል ሰብኮ ያለፈ፤ ብዙ ጊዜ ከዉጭ ሃገር የአገልግሎት ጥሪ ሲቀርብለት እንኳን ምርጫዉ ሀገር ውስጥ ማገልገል ነበር ምክንያቱ ደግሞ የሁልጊዜ ህልሙ ኢትዮጵያን በወንጌል ተለዉጣ ማየት ስለነበር ነዉ፡፡
-እንዲሁም በምድራችን ላይ ታላቅ የመንፈስ ቅዱስን ሪቫይቫል እንዲመጣ ተግቶ የሚፀልይ ብሎም የሚያስተምር ታማኝ ባላደራ እና የወንጌል አርበኛ ነበር፡፡ ይህ ታላቅ የእግዚአብሔር ሰዉ በስጋ ሲለየን ጥልቅ ሀዘን ቢሰማንም ነገርግን ወደተሻለ እና ወደከበረ ስፍራ በመሄዱ ደስታችን ወደር የለዉም (የቅዱሳኑ ሞት፣ በእግዚአብሔር ፊት የተከበረ ነዉ፡፡ መዝ 116፡15 አ.መ.ት )
-ሁልጊዜም መድረክ ላይ ፡- መች ረሳሁ... መች ዘነጋሁ ...ሁሉንም አስታዉሳለሁ የሚለዉን ዝማሬ ሳይዘምር የወረደበትን ጊዜ እምብዛም አልነበረም፡፡ የዚህ ታላቅ የእግዚአብሄር ሰዉ የሂወት ታሪክ፣አስተምህሮ ብሎም በአገልግሎቱ ጌታ ለሰራዉ ስራ እራሱ ባለቤቱ ክብሩን እና ምስጋናውን ይውሰድ፡ አሜን፡፡
+                ጥቂት ጊዜ የኖሮ ነገር ግን ታላቅ የእግዚአብሄርን ስራ ሰርቶ ያለፈ ወንጌላዊ !!! በምድራችን ከተነሱት ታላላቅ የእግዚአብሔር ሰዎች መካከል አንዱ ወንጌላዊ አለምነህ ጀንበሩ (ጋሼ አለምነህ) ጥቂት ኖሮ ታላቅ ነገርን ሰርቶ ያለፈ የጌታ ባርያ ነዉ፡፡ ወንጌላዊ አለምነህ ስለ ወንጌል የኖረ፤ በሁሉም የኢትጵያ ክልሎች ገጠር ከተማ ሳይል ወንጌል ሰብኮ ያለፈ፤ ብዙ ጊዜ ከዉጭ ሃገር የአገልግሎት ጥሪ ሲቀርብለት እንኳን ምርጫዉ ሀገር ውስጥ ማገልገል ነበር ምክንያቱ ደግሞ የሁልጊዜ ህልሙ ኢትዮጵያን በወንጌል ተለዉጣ ማየት ስለነበር ነዉ፡፡ እንዲሁም በምድራችን ላይ ታላቅ የመንፈስ ቅዱስን ሪቫይቫል እንዲመጣ ተግቶ የሚፀልይ ብሎም የሚያስተምር ታማኝ ባላደራ እና የወንጌል አርበኛ ነበር፡፡ ይህ ታላቅ የእግዚአብሔር ሰዉ በስጋ ሲለየን ጥልቅ ሀዘን ቢሰማንም ነገርግን ወደተሻለ እና ወደከበረ ስፍራ በመሄዱ ደስታችን ወደር የለዉም (የቅዱሳኑ ሞት፣ በእግዚአብሔር ፊት የተከበረ ነዉ፡፡ መዝ 116፡15 አ.መ.ት ) ሁልጊዜም መድረክ ላይ ፡- መች ረሳሁ... መች ዘነጋሁ ...ሁሉንም አስታዉሳለሁ የሚለዉን ዝማሬ ሳይዘምር የወረደበትን ጊዜ እምብዛም አልነበረም፡፡ የዚህ ታላቅ የእግዚአብሄር ሰዉ የሂወት ታሪክ፣አስተምህሮ ብሎም በአገልግሎቱ ጌታ ለሰራዉ ስራ እራሱ ባለቤቱ ክብሩን እና ምስጋናውን ይውሰድ፡ አሜን፡፡
                 </p>
               </div>
               <div className="main-midd-2 col-lg-3 mt-lg-0 mt-4 text-lg-right">
-                <a className="btn btn-style btn-primary" href="#donate">
+                <Link to="#donate" className="btn btn-style btn-primary">
                   <span className="fa fa-heart mr-1"></span> Donate Now
-                </a>
+                </Link>
               </div>
             </div>
             <div className="donar-img mt-5">
@@ -102,7 +99,7 @@ function About() {
                 <span className="fa fa-heart"></span>
                 <p>OUR TOP DONAR</p>
                 <h3 className="big my-3">$1.6m</h3>
-                <a className="btn btn-text" href="#ViewMore">View More</a>
+                <Link to="#ViewMore" className="btn btn-text">View More</Link>
               </div>
             </div>
           </div>
@@ -163,15 +160,15 @@ function About() {
                     <div className="team-img">
                       <img src={member.imgSrc} alt={member.name} className="radius-image img-fluid" />
                     </div>
-                    <a href="#url" className="team-title">{member.name}</a>
+                    <Link to="#url" className="team-title">{member.name}</Link>
                     <p>Volunteers</p>
                   </div>
                 </div>
               ))}
               <div className="team-apply">
-                <a href="#url" className="team-title m-0">
+                <Link to="#url" className="team-title m-0">
                   <span className="fa fa-plus-circle d-block mb-3"></span> Apply for Volunteer
-                </a>
+                </Link>
               </div>
             </div>
           </div>

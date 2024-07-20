@@ -49,26 +49,7 @@ function Navbar() {
                                     Contact
                                 </Link>
                             </li>
-                            <li className="ml-lg-auto mr-lg-0 m-auto">
-                                <div className="search-right">
-                                    <a href="#search" title="search">
-                                        <span className="fa fa-search" aria-hidden="true"></span>
-                                    </a>
-
-                                    <div id="search" className="pop-overlay">
-                                        <div className="popup">
-                                            <h4 className="mb-3">Search here</h4>
-                                            <form action="error.html" method="GET" className="search-box">
-                                                <input type="search" placeholder="Enter Keyword" name="search" required="required" autoFocus="" />
-                                                <button type="submit" className="btn btn-style btn-primary">
-                                                    Search
-                                                </button>
-                                            </form>
-                                        </div>
-                                        <a className="close" href="#close">×</a>
-                                    </div>
-                                </div>
-                            </li>
+                       
                             <li className="align-self">
                                 <Link to="/donate" className="btn btn-style btn-primary ml-lg-3 mr-lg-2">
                                     <span className="fa fa-heart mr-1"></span> Donate

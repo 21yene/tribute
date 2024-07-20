@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from '../components/Footer'
+import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 function Contact() {
   return (
     <div>
-   
       <div className="inner-banner">
         <section className="w3l-breadcrumb py-5">
           <div className="container py-lg-5 py-md-3">
@@ -41,7 +41,7 @@ function Contact() {
                   </form>
                 </div>
                 <div className="col-lg-4 cont-details">
-                <address>
+                  <address>
                     <h5 className="">Contact Address</h5>
                     <p>
                       <span className="fa fa-map-marker"></span>
@@ -57,12 +57,11 @@ function Contact() {
                       <span className="fa fa-phone"></span>
                       <a href="tel:+251-000-888-999"> +251-000-888-999</a>
                     </p>
-                    <a href="donate.html" className="btn btn-style btn-outline-primary mt-4">
+                    <Link to="/donate" className="btn btn-style btn-outline-primary mt-4">
                       <span className="fa fa-heart mr-1"></span>
                       Make Donation
-                    </a>
+                    </Link>
                   </address>
-
                 </div>
               </div>
             </div>
@@ -71,15 +70,14 @@ function Contact() {
       </section>
       <div className="map">
         <iframe
-        title='hello'
+          title='Addis Ababa Location'
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252230.0202898255!2d38.61332811145564!3d8.963479542288168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1721463578321!5m2!1sen!2set"
-          style={{ border: 0 }}
+          style={{ border: 0, width: '100%', height: '450px' }}
           allowFullScreen=""
           aria-hidden="false"
           tabIndex="0"
         ></iframe>
       </div>
-
       <Footer/>
     </div>
   );
