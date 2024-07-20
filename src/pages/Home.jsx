@@ -181,7 +181,7 @@ function Home() {
                     <div className="welcome-left text-center py-lg-4">
                         <span className="fa fa-heart-o"></span>
                         <h3 className="title-big">Help the Homeless & Hungry People.</h3>
-                        <a href="donate" className="btn btn-style btn-primary mt-sm-5 mt-4">Donate Now</a>
+                        <Link to="/donate" className="btn btn-style btn-primary mt-sm-5 mt-4">Donate Now</Link>
                     </div>
                 </div>
             </div>
@@ -192,38 +192,38 @@ function Home() {
                         <div className="col-lg-4">
                             <div className="header-section">
                                 <h3 className="title-big">Our Charity Causes </h3>
-                                <h4>If you want to work with for Save Poor charity? <a href="#url">Send your Details.</a></h4>
+                                <h4>If you want to work with for Save Poor charity? <Link to="#url">Send your Details.</Link></h4>
                                 <p className="mt-3 mb-lg-5 mb-4"> Lorem ipsum dolorus animi obcaecati vel ipsum. Vivamus a ligula quam.
                                     Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet igula quam.</p>
                             </div>
-                            <a href="contact" className="btn btn-outline-primary btn-style">Contact Us</a>
+                            <Link to="/contact" className="btn btn-outline-primary btn-style">Contact Us</Link>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
                             <div className="img-block">
-                                <a href="photos">
+                                <Link to="photos">
                                     <img src="assets/images/blog5.jpg" className="img-fluid radius-image-full" alt="image" />
                                     <span className="title">Food for Hungry</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="img-block mt-4">
-                                <a href="photos"> <img src="assets/images/blog2.jpg" className="img-fluid radius-image-full"
+                                <Link to="photos"> <img src="assets/images/blog2.jpg" className="img-fluid radius-image-full"
                                     alt="image" />
                                     <span className="title">Help from Injuries</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-4">
                             <div className="img-block">
-                                <a href="photos"> <img src="assets/images/blog3.jpg" className="img-fluid radius-image-full"
+                                <Link to="photos"> <img src="assets/images/blog3.jpg" className="img-fluid radius-image-full"
                                     alt="image" />
                                     <span className="title">Education for all</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="img-block mt-4">
-                                <a href="photos">
+                                <Link to="photos">
                                     <img src="assets/images/blog4.jpg" className="img-fluid radius-image-full" alt="image" />
                                     <span className="title">Clean water for all</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

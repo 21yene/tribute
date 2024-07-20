@@ -48,14 +48,14 @@ function Contact() {
                       Addis Ababa, Ethiopia
                     </p>
                     <p>
-                      <a href="mailto:info@example.com">
+                      <Link to="mailto:info@example.com">
                         <span className="fa fa-envelope"></span>
                         info@example.com
-                      </a>
+                      </Link>
                     </p>
                     <p>
                       <span className="fa fa-phone"></span>
-                      <a href="tel:+251-000-888-999"> +251-000-888-999</a>
+                      <Link to="tel:+251-000-888-999"> +251-000-888-999</Link>
                     </p>
                     <Link to="/donate" className="btn btn-style btn-outline-primary mt-4">
                       <span className="fa fa-heart mr-1"></span>
