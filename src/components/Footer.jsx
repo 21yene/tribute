@@ -6,27 +6,6 @@ function Footer() {
   return (
     <div className="w3l-footer-main">
       <div className="w3l-sub-footer-content">
-        <section className="_form-3">
-          <div className="form-main">
-            <div className="container">
-              <div className="middle-section grid-column top-bottom">
-                <div className="image grid-three-column">
-                  <img src="assets/images/subscribe.png" alt="Subscribe" className="img-fluid radius-image-full" />
-                </div>
-                <div className="text-grid grid-three-column">
-                  <h2>Subscribe our Newsletter to receive latest updates from us</h2>
-                  <p>We won’t give you spam mails.</p>
-                </div>
-                <div className="form-text grid-three-column">
-                  <form action="/" method="GET">
-                    <input type="email" name="placeholder" placeholder="Enter Your Email" required />
-                    <button type="submit" className="btn btn-style btn-primary">Submit</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <footer className="footer-14">
           <div id="footers14-block">
             <div className="container">
@@ -75,24 +54,8 @@ function Footer() {
               </div>
             </div>
           </div>
-
-          <script>
-            {`
-              window.onscroll = function() {scrollFunction()};
-              function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                  document.getElementById("movetop").style.display = "block";
-                } else {
-                  document.getElementById("movetop").style.display = "none";
-                }
-              }
-              function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-              }
-            `}
-          </script>
         </footer>
+
       </div>
     </div>
   );
