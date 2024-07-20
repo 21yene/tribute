@@ -32,17 +32,30 @@ function Footer() {
                 <div className="d-grid grid-col-4 grids-content">
                   <div className="column">
                     <h4>Our Address</h4>
-                    <p>235 Terry, 10001 20C Trolley Square, DE 19806 U.S.A.</p>
+                    <p>
+                      <span className="fa fa-map-marker"></span>
+                      Addis Ababa, Ethiopia
+                    </p>
+                    
+                    
                   </div>
                   <div className="column">
                     <h4>Call Us</h4>
                     <p>Mon - Fri 10:30 -18:00</p>
-                    <p><a href="tel:+44-000-888-999">+44-000-888-999</a></p>
+                    <p>
+                      <span className="fa fa-phone"></span>
+                      <a href="tel:+251-918-922-547"> +251-918-922-547</a>
+                    </p>
                   </div>
+          
                   <div className="column">
                     <h4>Mail Us</h4>
-                    <p><a href="mailto:info@example.com">info@example.com</a></p>
-                    <p><a href="mailto:no.reply@example.com">no.reply@example.com</a></p>
+                    <p>
+                      <a href="mailto:abrahammekuria73@gmail.com">
+                        <span className="fa fa-envelope"></span>
+                        Abraham mekuria
+                      </a>
+                    </p>
                   </div>
                   <div className="column">
                     <h4>Follow Us On</h4>
@@ -58,17 +71,9 @@ function Footer() {
               </div>
               <div className="footers14-bottom d-flex">
                 <div className="copyright">
-                  <p>© 2020 Save Poor. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank" rel="noopener noreferrer">W3Layouts</a></p>
+                  <p>© 2024 የወንጌላዊ አለምነህ ጀንበሩ ማስታወሻ. All rights reserved. Design by <a href="https://github.com/21yene" target="_blank" rel="noopener noreferrer">Agarfan Friends</a></p>
                 </div>
-                <div className="language-select d-flex">
-                  <span className="fa fa-language" aria-hidden="true"></span>
-                  <select>
-                    <option>English</option>
-                    <option>Estonian</option>
-                    <option>Deutsch</option>
-                    <option>Nederlands</option>
-                  </select>
-                </div>
+
               </div>
             </div>
           </div>

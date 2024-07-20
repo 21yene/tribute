@@ -89,7 +89,7 @@ function navbar() {
                     </li>
                     <li className="align-self">
                         <a
-                            href="#donate"
+                            href="donate"
                             className="btn btn-style btn-primary ml-lg-3 mr-lg-2"
                         >
                             <span className="fa fa-heart mr-1"></span> Donate

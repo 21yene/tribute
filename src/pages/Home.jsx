@@ -16,7 +16,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Charity Life</p>
                                             <h5>Charity, Faith and Hope. Help the Homeless. Charity life.</h5>
-                                            <a href="about.html" className="btn btn-primary btn-style">Read More</a>
+                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Save Children</p>
                                             <h5>Donate with Kindness. Every amount Donated by you Counts.</h5>
-                                            <a href="about.html" className="btn btn-primary btn-style">Read More</a>
+                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Unconditional Help</p>
                                             <h5>Give a Helping hand. We all need to come together. Our Mission.</h5>
-                                            <a href="about.html" className="btn btn-primary btn-style">Read More</a>
+                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ function Home() {
                                         <div className="banner-info-bg text-left">
                                             <p>Unconditional Help</p>
                                             <h5>Should Children suffer this way? Don't leave Orphans alone</h5>
-                                            <a href="about.html" className="btn btn-primary btn-style">Read More</a>
+                                            <a href="about" className="btn btn-primary btn-style">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ function Home() {
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-sm-4 mt-3">
                             <div className="box-wrap">
-                                <h4><a href="contact.html">Request a Quote</a></h4>
+                                <h4><a href="contact">Request a Quote</a></h4>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ function Home() {
                         <h3 className="title-big">Over 93% of all Donations go directly to Projects.</h3>
                         <p className="my-3">Under 7% for admin, fundraising, and salaries.</p>
                         <h4>Thank you for your continued Support </h4>
-                        <a href="#donate" className="btn btn-style btn-primary mt-sm-5 mt-4"><span className="fa fa-heart mr-1"></span> Donate Now</a>
+                        <a href="donate" className="btn btn-style btn-primary mt-sm-5 mt-4"><span className="fa fa-heart mr-1"></span> Donate Now</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ function Home() {
                                 <img src="assets/images/donate.png" alt="" />
                                 <h4><a href="#feature" className="title-head">Give Donation.</a></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="#donate" className="btn btn-text">Donate Now</a>
+                                <a href="donate" className="btn btn-text">Donate Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-5">
@@ -121,7 +121,7 @@ function Home() {
                                 <img src="assets/images/volunteer.png" alt="" />
                                 <h4><a href="#feature" className="title-head">Become a Volunteer.</a></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="contact.html" className="btn btn-text">Join Now</a>
+                                <a href="contact" className="btn btn-text">Join Now</a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-5">
@@ -129,7 +129,7 @@ function Home() {
                                 <img src="assets/images/child.png" alt="" style={{ width: '52px' }} />
                                 <h4><a href="#feature" className="title-head">Help the Children.</a></h4>
                                 <p className="mb-3">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
-                                <a href="#donate" className="btn btn-text">Help Now</a>
+                                <a href="donate" className="btn btn-text">Help Now</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ function Home() {
                     <div className="welcome-left text-center py-lg-4">
                         <span className="fa fa-heart-o"></span>
                         <h3 className="title-big">Help the Homeless & Hungry People.</h3>
-                        <a href="#donate" className="btn btn-style btn-primary mt-sm-5 mt-4">Donate Now</a>
+                        <a href="donate" className="btn btn-style btn-primary mt-sm-5 mt-4">Donate Now</a>
                     </div>
                 </div>
             </div>
@@ -196,17 +196,17 @@ function Home() {
                                 <p className="mt-3 mb-lg-5 mb-4"> Lorem ipsum dolorus animi obcaecati vel ipsum. Vivamus a ligula quam.
                                     Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet igula quam.</p>
                             </div>
-                            <a href="contact.html" className="btn btn-outline-primary btn-style">Contact Us</a>
+                            <a href="contact" className="btn btn-outline-primary btn-style">Contact Us</a>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
                             <div className="img-block">
-                                <a href="causes.html">
+                                <a href="photos">
                                     <img src="assets/images/blog5.jpg" className="img-fluid radius-image-full" alt="image" />
                                     <span className="title">Food for Hungry</span>
                                 </a>
                             </div>
                             <div className="img-block mt-4">
-                                <a href="causes.html"> <img src="assets/images/blog2.jpg" className="img-fluid radius-image-full"
+                                <a href="photos"> <img src="assets/images/blog2.jpg" className="img-fluid radius-image-full"
                                     alt="image" />
                                     <span className="title">Help from Injuries</span>
                                 </a>
@@ -214,13 +214,13 @@ function Home() {
                         </div>
                         <div className="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-4">
                             <div className="img-block">
-                                <a href="causes.html"> <img src="assets/images/blog3.jpg" className="img-fluid radius-image-full"
+                                <a href="photos"> <img src="assets/images/blog3.jpg" className="img-fluid radius-image-full"
                                     alt="image" />
                                     <span className="title">Education for all</span>
                                 </a>
                             </div>
                             <div className="img-block mt-4">
-                                <a href="causes.html">
+                                <a href="photos">
                                     <img src="assets/images/blog4.jpg" className="img-fluid radius-image-full" alt="image" />
                                     <span className="title">Clean water for all</span>
                                 </a>
